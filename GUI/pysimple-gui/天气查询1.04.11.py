@@ -9,7 +9,6 @@ import re
 from lxml import etree
 from PIL import Image
 
-sg.SetOptions()
 im = Image.open(r'tianqi.jpg')
 im.save('tianqi.png')
 header = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0'}
